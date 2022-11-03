@@ -32,7 +32,7 @@ Run below query to test UDF
 
 v.1.0.0
 
-get this mechanism working and output a jar. 
+get this mechanism working / compiling and outputing a jar. 
 Next step: Test that its working on Athena.
 
 - double metaphone should be ready and working
