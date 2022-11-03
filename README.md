@@ -39,3 +39,10 @@ Next step: Test that its working on Athena.
 - Levenstein and Jaro Winkler from Apache Commons compile but currently need to make them scalar as the UDFs Athena expects
 
 
+
+---
+### References
+
+https://docs.aws.amazon.com/athena/latest/ug/querying-udf.html
+https://docs.aws.amazon.com/athena/latest/ug/querying-udf.html#udf-creating-and-deploying
+
