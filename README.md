@@ -7,14 +7,14 @@ Need Java 1.8 / Maven installed. Installation of both through SDKMAN is recommen
 
 ### HOW TO BUILD JAR and create the lambda function:
 
-- Build jar
 
     mvn package clean #to check if it compiles
     mvn clean install -DskipTests
 
-- Create a lambda function (make sure that lambda role is created before this)
 
-either use the web interface or the below command
+Create a lambda function (make sure that lambda role is created before this).Either use the web interface or the below command:
+
+
     aws lambda create-function
     --function-name athenaudf
     --runtime java8
@@ -27,7 +27,9 @@ either use the web interface or the below command
 
 - Run below query on ATHENA to test UDF:
 
-`USING EXTERNAL FUNCTION compress(input VARCHAR) RETURNS VARCHAR LAMBDA 'athenaudf' SELECT compress('Hello')`
+`USING EXTERNAL FUNCTION dm(input VARCHAR) RETURNS VARCHAR LAMBDA 'athenaudf' SELECT dm('Hello')`
+
+
 
 ---
 ### Progress
