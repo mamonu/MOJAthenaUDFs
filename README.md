@@ -36,7 +36,7 @@ get this mechanism working / compiling and outputing a jar.
 Next step: Test that its working on Athena.
 
 - double metaphone should be ready and working
-- Levenstein and Jaro Winkler from Apache Commons compile but currently need to make them scalar as the UDFs Athena expects
+- Jaro Winkler from Apache Commons also compiles sucessfully but currently need to make it scalar , in the way UDFs Athena expect
 
 
 
