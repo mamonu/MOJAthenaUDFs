@@ -40,10 +40,10 @@ Next step: Test that its working on Athena.
 - double metaphone should be ready and working now
 
 - Jaro Winkler from Apache Commons also compiles sucessfully and has a scalar interface , in the way UDFs work in Athena : 
-it needs input of the form "TEXT_FROM_COL1####TEXT_FROM_COL2" where #### is the seperator of the two column strings 
+it needs input of the form "TEXT_FROM_COL1####TEXT_FROM_COL2" where #### is the seperator of the two column strings As the documentation [see reference 1] points out:
 
-As the documentation [see reference 1] points out
-        Scalar UDFs only – Athena only supports scalar UDFs, which process one row at a time and return a single column value. Athena passes a batch of rows, potentially in parallel, to the UDF each time it invokes Lambda
+        Scalar UDFs only – Athena only supports scalar UDFs, which process one row at a time and return a single column value. 
+        Athena passes a batch of rows, potentially in parallel, to the UDF each time it invokes Lambda
 
 
 
