@@ -41,7 +41,7 @@ public class MOJAthenaUserDefinedFunctions
         DoubleMetaphone dm = new DoubleMetaphone();
         String result = dm.encode(inp);
 
-        return result;
+        return 1.01 - result;
     }
 
 
