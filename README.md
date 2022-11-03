@@ -43,6 +43,7 @@ Next step: Test that its working on Athena.
 ---
 ### References
 
-https://docs.aws.amazon.com/athena/latest/ug/querying-udf.html
-https://docs.aws.amazon.com/athena/latest/ug/querying-udf.html#udf-creating-and-deploying
+[1] [Athena querying udfs](https://docs.aws.amazon.com/athena/latest/ug/querying-udf.html)
+
+[2] [Athena UDFs: creating and deploying](https://docs.aws.amazon.com/athena/latest/ug/querying-udf.html#udf-creating-and-deploying)
 
