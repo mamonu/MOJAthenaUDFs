@@ -26,3 +26,16 @@ Go to Athena and make sure that Console is pointing to Engine version 2
 Run below query to test UDF
 
 `USING EXTERNAL FUNCTION compress(input VARCHAR) RETURNS VARCHAR LAMBDA 'athenaudf' SELECT compress('Hello')`
+
+---
+Progress
+
+v.1.0.0
+
+get this mechanism working and output a jar. 
+Next step: Test that its working on Athena.
+
+- double metaphone should be ready and working
+- Levenstein and Jaro Winkler from Apache Commons compile but currently need to make them scalar as the UDFs Athena expects
+
+
