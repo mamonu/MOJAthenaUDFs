@@ -24,22 +24,17 @@ public class MOJAthenaUserDefinedFunctions
         super(SOURCE_TYPE);
     }
 
-    public static int levenshteinDistance(String left, String right) {
+    public static double jaroWinklerDistance(String inp) {
 
-        LevenshteinDistance levenshtein = new LevenshteinDistance();
-        Integer result = levenshtein.apply(left, right);
-
-        return result;
-    }
-
-    public static double jaroWinklerDistance(String left, String right) {
+        String[] parts = inp.split("####", 2);
+        String left = parts[0];
+        String right = parts[1];
 
         JaroWinklerDistance jaro = new JaroWinklerDistance();
         Double result = jaro.apply(left, right);
 
         return result;
     }
-
 
     public static String dm(String inp) {
 
