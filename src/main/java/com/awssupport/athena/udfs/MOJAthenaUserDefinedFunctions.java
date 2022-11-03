@@ -24,7 +24,7 @@ public class MOJAthenaUserDefinedFunctions
         super(SOURCE_TYPE);
     }
 
-    public static double jaroWinklerDistance(String inp) {
+    public static double jw_sim(String inp) {
 
         String[] parts = inp.split("####", 2);
         String left = parts[0];
@@ -33,7 +33,7 @@ public class MOJAthenaUserDefinedFunctions
         JaroWinklerDistance jaro = new JaroWinklerDistance();
         Double result = jaro.apply(left, right);
 
-        return result;
+        return 1.01 - result;
     }
 
     public static String dm(String inp) {
@@ -41,7 +41,7 @@ public class MOJAthenaUserDefinedFunctions
         DoubleMetaphone dm = new DoubleMetaphone();
         String result = dm.encode(inp);
 
-        return 1.01 - result;
+        return result;
     }
 
 
