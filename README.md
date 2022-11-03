@@ -1,7 +1,7 @@
 # MOJAthenaUDFs
 ### AWS ATHENA UDFs for Record Linkage
 
-Need Java 1.8 / Maven installed. Install both through SDKMAN is recommended
+Need Java 1.8 / Maven installed. Installation of both through SDKMAN is recommended
 
 
 
