@@ -47,3 +47,5 @@ Next step: Test that its working on Athena.
 
 [2] [Athena UDFs: creating and deploying](https://docs.aws.amazon.com/athena/latest/ug/querying-udf.html#udf-creating-and-deploying)
 
+[3] [AWS Athena UDF access to lambda context](https://stackoverflow.com/questions/70128935/aws-athena-udf-access-to-lambda-context)
+
