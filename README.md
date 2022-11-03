@@ -28,7 +28,7 @@ Run below query to test UDF
 `USING EXTERNAL FUNCTION compress(input VARCHAR) RETURNS VARCHAR LAMBDA 'athenaudf' SELECT compress('Hello')`
 
 ---
-Progress
+### Progress
 
 v.1.0.0
 
